@@ -6,9 +6,9 @@ const files = path.resolve(__dirname, '../..');
 
 /* adiciona o module-alias em src e test */
 moduleAlias.addAliases({
-    '@scr': path.join(files, 'src'),
-    '@test': path.join(files, 'test')
-})
+  '@scr': path.join(files, 'src'),
+  '@test': path.join(files, 'test'),
+});
 
 /* 
    module-alias serve para resolver o problema de importação de arquivos,
